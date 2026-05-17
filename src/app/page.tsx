@@ -32,9 +32,13 @@ export default function Home() {
       {/* Premium Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl px-4 md:px-8 py-4 flex items-center justify-between border-b border-brand-green/10 shadow-sm">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 bg-gradient-to-br from-brand-green to-brand-orange rounded-2xl flex items-center justify-center shadow-lg shadow-brand-green/20">
-            <span className="text-white font-black text-2xl">T</span>
-          </div>
+          <div className="w-12 h-12 rounded-2xl overflow-hidden shadow-lg shadow-brand-green/20">
+  <img
+    src="/IMG_20260517_133809_035.jpg"
+    alt="Login"
+    className="w-full h-full object-cover"
+  />
+</div>
           <div>
             <h1 className="text-brand-black font-black text-xl leading-tight tracking-tight">Twins</h1>
             <p className="text-brand-green text-[10px] font-black uppercase tracking-[0.2em]">Digital Menu</p>
